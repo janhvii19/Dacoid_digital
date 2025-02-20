@@ -73,3 +73,15 @@ Ensure you have the following installed:
 ## **Screenshots**
 
 Here are some screenshots of the app in action:
+
+### **Quiz Page - Dark Mode**
+![Quiz Page - Dark Mode](./src/assets/screenshots/quiz-dark-mode.png)
+
+### **Quiz Page - Light Mode**
+![Quiz Page - Light Mode](./src/assets/screenshots/quiz-light-mode.png)
+
+### **Quiz Page - Scoreboard**
+![Quiz Page - Light Mode](./src/assets/screenshots/scoreboard.png)
+
+### **Error Page (404)**
+![Error Page](./src/assets/screenshots/error-page.png)
