@@ -1,14 +1,16 @@
 # Quiz App
 
+## Explore Quiz App
+<a href="https://dacoid-digital-quiz-app.vercel.app"/>Explore quiz app</a>
+
 ## Project Overview
 
-The Quiz App is a web application designed to provide an interactive quiz experience. It fetches quiz data from an API and allows users to answer questions, track their scores, and view their progress in real-time. The app includes a timer, scoring system, streak tracking, and a dark mode toggle. It also features a fallback error page for any invalid routes (404 error).
+The Quiz App is a web application designed to provide an interactive quiz experience. It allows users to answer questions, track their scores, and view their progress in real-time. The app includes a timer, scoring system, and a dark mode toggle. It also features a fallback error page for any invalid routes (404 error).
 
 ### Key Features:
-- **Interactive Quiz**: Users can answer questions from a fetched quiz.
-- **Timer**: Countdown timer for each quiz session.
-- **Scoring System**: Correct answers increase the score, and incorrect answers decrease it.
-- **Streak Tracker**: Displays the longest streak of correct answers.
+- **Interactive Quiz**: Users can answer questions.
+- **Timer**: Countdown timer for each question.
+- **Scoring System**: Correct answers increase the score.
 - **Dark Mode**: Toggle dark and light themes.
 - **High Score**: Track high scores across sessions.
 - **404 Error Page**: Custom error page for invalid routes.
@@ -17,10 +19,8 @@ The Quiz App is a web application designed to provide an interactive quiz experi
 ## Table of Contents
 - [Project Setup](#project-setup)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-- [Video](#video-walkthrough)
 
 ## Project Setup
 
@@ -37,11 +37,11 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Harshvardhan32/testline-assignment.git
+   git clone https://github.com/Harshvardhan32/Dacoid-Digital.git
 
 2. **Install dependencies**:
    ```bash
-   cd testline-assignment
+   cd Dacoid-Digital
    npm install
    
 3. **Run the app**:
@@ -51,19 +51,10 @@ Ensure you have the following installed:
 ## Usage
 1. **Start the quiz**: Upon loading the app, the quiz will automatically begin. Users can answer each question and navigate to the next one.
 2. **Timer**: The quiz includes a countdown timer to add a time-based challenge.
-3. **Answering Questions**: Users can select answers, and their score and streak will update in real-time.
+3. **Answering Questions**: Users can select answers, and their score will update in real-time.
 4. **Theme Toggle**: Switch between light and dark modes by clicking the theme icon in the top-right corner.
-5. **Quiz Completion**: Upon finishing all the questions or when the timer runs out, users will see their final score, streak, and high score.
+5. **Quiz Completion**: Upon finishing all the questions or when the timer runs out, users will see their final score, and high score.
 6. **Error Page**: Any invalid route will redirect to a custom 404 error page.
-
-## Folder Structure
-The project has the following folder structure:
-
-
-### Key Notes:
-- **Assets in `/src`:** Placing `/assets` inside `/src` ensures they are managed with the app's build tools (e.g., Webpack or Vite).
-- **Modular pages:** Grouping reusable pages in `/pages` promotes modularity.
-- **Global styles in `index.css`**
 
 ## **Technologies Used**
 
@@ -89,11 +80,8 @@ Here are some screenshots of the app in action:
 ### **Quiz Page - Light Mode**
 ![Quiz Page - Light Mode](./src/assets/screenshots/quiz-light-mode.png)
 
+### **Quiz Page - Scoreboard**
+![Quiz Page - Light Mode](./src/assets/screenshots/scoreboard.png)
+
 ### **Error Page (404)**
 ![Error Page](./src/assets/screenshots/error-page.png)
-
-## **Video**
-
-Here is a short video demonstrating the Quiz App:
-
-[Watch the Video of the Quiz App](https://drive.google.com/file/d/1yBvosluZlX_mwZOUmhh7Gh62kmAgkPjf/view?usp=sharing)
